@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,200&family=Oswald:wght@500&family=Raleway:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--tamh-texto);
+}
+:root{
+    --cor-fundo : #000; 
+    --cor-texto : #f6f6f6;
+    --cor-div : #000054;
+    --cor-titulo: #F0E68C ;
+    --cor-hover: #0e0778;
+    --tamh-texto: 24px; 
+    --tamh-title: 40px;
+    
+
+
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-fundo) ;
+    color: var(--cor-texto);
+}
+.text{
+    width: 70%;
+    text-align: justify;
+}
+.title{
+    font-size: var(--tamh-title);
+    color: var(--cor-titulo)
+}
+.guessField{
+    background-color: var(--cor-div);
+    width: 340px;
+    color: var(--cor-texto);
+    font-size: 24px;
+    padding-left: 15px;
+    height: 40px;
+    border: 1px solid #f6f6f6;
+    border-radius: 10px;
+
+}
+.guessField:hover{
+    background-color: #0e0778;
+}
+.fundo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--cor-div);
+    width: 700px;
+    height: 700px;
+    box-shadow: #0e0778;
+    border-radius: 4rem;
+}
+.guessSubmit{
+    background-color: var(--cor-div);
+    color: var(--cor-titulo);
+    border: none;
+}
+.guessSubmit:hover{
+    background-color: var(--cor-div);
+}
